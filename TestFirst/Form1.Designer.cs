@@ -34,7 +34,7 @@ namespace TestFirst
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(33, 362);
+            this.btnStart.Location = new System.Drawing.Point(29, 204);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(196, 60);
             this.btnStart.TabIndex = 0;
@@ -46,7 +46,7 @@ namespace TestFirst
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(511, 280);
             this.Controls.Add(this.btnStart);
             this.Name = "Form1";
             this.Text = "Form1";
