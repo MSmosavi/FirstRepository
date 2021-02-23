@@ -16,10 +16,17 @@ namespace TestFirst
         {
             InitializeComponent();
         }
-
+        bool i = true;
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            if (i)
+            {
+                i = false;
+                txtName.Text = txtName.Text +"  "+ txtName.Text;
+                
+                return;
+            }
+            i = true;
         }
     }
 }
