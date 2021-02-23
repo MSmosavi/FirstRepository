@@ -30,7 +30,7 @@ namespace TestFirst
         private void InitializeComponent()
         {
             this.btnStart = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtName = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnStart
@@ -43,13 +43,13 @@ namespace TestFirst
             this.btnStart.UseVisualStyleBackColor = true;
             this.btnStart.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox1
+            // txtName
             // 
-            this.textBox1.Location = new System.Drawing.Point(33, 12);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(198, 20);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtName.Location = new System.Drawing.Point(26, 41);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(224, 20);
+            this.txtName.TabIndex = 0;
+            this.txtName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Form1
             // 
@@ -57,7 +57,7 @@ namespace TestFirst
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(511, 280);
             this.Controls.Add(this.btnStart);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtName);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -66,6 +66,7 @@ namespace TestFirst
 
         #endregion
 
+        private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.Button btnStart;
     }
 }
