@@ -36,7 +36,7 @@ namespace TestFirst
             // 
             this.btnStart.Location = new System.Drawing.Point(29, 204);
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(196, 60);
+            this.btnStart.Size = new System.Drawing.Size(458, 60);
             this.btnStart.TabIndex = 0;
             this.btnStart.Text = "Start";
             this.btnStart.UseVisualStyleBackColor = true;
