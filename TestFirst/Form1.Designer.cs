@@ -38,7 +38,7 @@ namespace TestFirst
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(458, 60);
             this.btnStart.TabIndex = 0;
-            this.btnStart.Text = "Start";
+            this.btnStart.Text = "Start Task";
             this.btnStart.UseVisualStyleBackColor = true;
             this.btnStart.Click += new System.EventHandler(this.button1_Click);
             // 
