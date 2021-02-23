@@ -42,11 +42,12 @@ namespace TestFirst
             this.btnStart.Text = "Start Task";
             this.btnStart.UseVisualStyleBackColor = true;
             this.btnStart.Click += new System.EventHandler(this.button1_Click);
+            // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(33, 12);
+            this.textBox1.Location = new System.Drawing.Point(134, 12);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(198, 20);
+            this.textBox1.Size = new System.Drawing.Size(291, 20);
             this.textBox1.TabIndex = 0;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
