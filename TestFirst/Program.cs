@@ -9,7 +9,7 @@ namespace TestFirst
     static class Program
     {
         /// <summary>
-        /// The main entry point for the hjkapplication.
+        /// The main entry point for the hjttttkapplication.
         /// </summary>
         [STAThread]
         static void Main()
